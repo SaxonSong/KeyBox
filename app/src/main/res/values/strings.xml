@@ -4,4 +4,8 @@
     <string name="username">用户名</string>
     <string name="key_content">密码</string>
     <string name="complete">完成</string>
+    <string name="key_operate_dialog_content">重新编辑或删除密码</string>
+    <string name="key_operete_dialog_update">编辑</string>
+    <string name="key_operate_dialog_delete">删除</string>
+    <string name="key_operate_dialog_cancel">取消</string>
 </resources>

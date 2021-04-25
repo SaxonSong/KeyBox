@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         RecyclerView keyListView = findViewById(R.id.key_list);
         initKeyList();
-        KeyListAdapter adapter = new KeyListAdapter(keyList);
+        KeyListAdapter adapter = new KeyListAdapter(this, keyList);
         LinearLayoutManager manager = new LinearLayoutManager(MainActivity.this);
         keyListView.setAdapter(adapter);
         keyListView.setLayoutManager(manager);

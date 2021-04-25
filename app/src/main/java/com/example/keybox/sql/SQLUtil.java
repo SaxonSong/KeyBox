@@ -19,7 +19,7 @@ public class SQLUtil {
         helper.getWritableDatabase();
     }
 
-    public static boolean insertKey(Context context,String keyName, String username, String keyContent) {
+    public static boolean insertKey(Context context, String keyName, String username, String keyContent) {
         helper = new KeyBoxDatabaseHelper(context,"KeyBox.db",null,1);
         SQLiteDatabase database = helper.getWritableDatabase();
         ContentValues values = new ContentValues();

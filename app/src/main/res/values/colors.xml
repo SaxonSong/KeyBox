@@ -11,4 +11,5 @@
     <color name="snow_white">#FFFFFAFA</color>
     <color name="background_gray">#FFF3F3F3</color>
     <color name="light_blue">#FF537FFF</color>
+    <color name="text_blue">#FF5848F5</color>
 </resources>
